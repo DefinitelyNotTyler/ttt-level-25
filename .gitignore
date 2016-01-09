@@ -1,0 +1,194 @@
+
+<png>
+
+<head>
+<title>Where's the picture?</title>
+</head>
+
+<!-- should be here... but then it's not... hmm... -->
+<link REL="SHORTCUT ICON" HREF="favicon.ico">
+
+<!-- BEGIN MENU -->
+
+<link rel="stylesheet" href="style2.css" type="text/css" media="screen">
+
+<div class="example">
+    <ul id="nav">
+       <table width="100%" align="left">
+       <tr>
+
+	<td align="left">  
+         <b> &nbsp; &nbsp; Greetings, Ty!</b>
+        </td>
+
+       <td align>
+	<li><a href="settings.php" target="_blank">Settings &nbsp; </a></li> 
+   	<li><a>Links</a>
+            <ul>
+                <li><a href="../forum" target="_blank">Official Forum</a></li>
+                <li><a href="http://facebook.com/timtangtest" target="_blank">Facebook Page</a></li>
+                <li><a href="pmos.php" target="_blank">PMOs</a></li>
+                <li><a href="top100.php" target="_blank">Top 100</a></li>
+            </ul>
+        </li>
+        <li><a href="caretcard.php">CaretCard</a>
+	    <ul>
+                <li><a href="caretcardfaq.php">FAQ</a></li>   
+	    </ul>
+	</li>
+	<li><a href="tp.html" target="_blank"><img src="http://www.timtang.com/smilies/tp.png" width="21" align="top" height="20"> 25</a>
+            <ul>
+                <li><a href="tpbuyearn.php" target="_blank">Buy/Earn</a></li>
+                <li><a href="tpredeem.php" target="_blank">Redemption</a></li>
+                <li><a href="tpbal.php" target="_blank">Turtlepoint Balance</a></li>
+                <li><a href="tplog.php" target="_blank">Turtlepoint Log</a></li>
+            </ul>
+        </li>
+        <li><a href="token.html" target="_blank"><img src="http://www.timtang.com/smilies/token3.png" align="top" width="27" height="20"> 0</a>
+            <ul>
+                <li><a href="tokens/purchase.html" target="_blank">Purchase</a></li>
+                <li><a href="tokenconvert.php" target="_blank">Convert to Turtlepoints</a></li>
+                <li><a href="tokeninfo.html" target="_blank">Redemption Info</a></li>
+                <li><a href="tokenbal.php" target="_blank">Token Balance</a></li>
+                <li><a href="tokenlog.php" target="_blank">Token Log</a></li>
+            </ul>
+        </li>
+        <li><a href="level.php">Traditional Levels</a>
+            <ul>
+                <li><a href="toddler.php">Toddler Levels</a></li>
+                <li><a href="teen.php">Teen Levels</a></li>
+                <li><a>Anniversary and Birthday Levels</center></a>
+                    <ul>
+                        <li><a href="5th.php">5th Anniversary Levels</a></li>
+                        <li><a href="6th.php">6th Anniversary Levels</a></li>
+                        <li><a href="cbox6.php">CBox 6th Birthday Levels</a></li>
+                        <li><a href="7th.php">7th Anniversary Levels</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li> 
+<li></a>
+<ul>
+                <li><a href="playerlog.php" target="_blank">Player Log</a></li>
+                <li><a href="iplog.php" target="_blank">IP Log</a></li>
+                <li><a href="eggs.php" target="_blank">Egg Pages</a></li>
+                <li><a href="tplist.php" target="_blank">TP Clues List</a></li>
+ </ul></li>
+<li><a href="puzzlehunt.php"><img src="http://www.timtang.com/ttt/images/puzzlehunt.GIF" align="bottom"></a>
+             <ul>
+                <li><a href="teamlist.php">Teams</a></li>
+                <li><a href="puzzles.php">Puzzles</a></li>
+                <li><a href="puzzlehuntrules.php">Rules</a></li>
+                <li><a href="puzzlehuntfaq.php">FAQ</a></li>
+            </ul>
+        </li>
+        </td>
+       
+        </tr>
+        </table>
+    </ul>
+</div>
+
+<!-- END MENU -->
+
+
+<br> 
+<body bgcolor="#000000"><br>
+
+<center>
+
+<img src="images/deadend/sandrapalmer.JPG" height="600" width="800">    
+<br><br>
+<font face="Arial, Helvetica, sans-serif" color="orange" size="3">
+<form action="level.php" method="POST">
+<p><b>Answer: <input type="text" name="answer"> <input type="submit" value="Submit">
+<input type="hidden" name="level" value="25">
+<input type="hidden" name="action" value="submitanswer"></b></p>
+<p><b>Reminder: all level answers will not contain spaces or capital letters.</b></p>
+</form>
+
+<br>
+
+<!-- BEGIN LEVEL SELECTION -->
+
+<form action="level.php" method="POST">
+<p><b>Switch to level:
+<select name="level">
+     <option value="25" selected>25</option>
+     <option value="24">24</option>
+     <option value="23">23</option>
+     <option value="22">22</option>
+     <option value="21">21</option>
+     <option value="20">20</option>
+     <option value="19">19</option>
+     <option value="18">18</option>
+     <option value="17">17</option>
+     <option value="16">16</option>
+     <option value="15">15</option>
+     <option value="14">14</option>
+     <option value="13">13</option>
+     <option value="12">12</option>
+     <option value="11">11</option>
+     <option value="10">10</option>
+     <option value="9">9</option>
+     <option value="8">8</option>
+     <option value="7">7</option>
+     <option value="6">6</option>
+     <option value="5">5</option>
+     <option value="4">4</option>
+     <option value="3">3</option>
+     <option value="2">2</option>
+     <option value="1">1</option>
+     <option value="0">0</option>
+</select>
+<input type="submit" value="Go">
+<input type="hidden" name="action" value="viewlevel"></b></p>
+</form>
+
+<!-- END LEVEL SELECTION -->
+
+
+</table>
+
+<br><br><br><br>
+</center>
+<font face="Comic Sans MS, Verdana, sans-serif" color="0088FF" size="5"><b>Latest News</b></font><br><i>
+<font face='Arial' color='yellow' size='3'>You can cheer or tomato any news message by clicking on the respective smilies below each message. <a href="news.php" target="_blank" style="color: #FFFFFF"><font face='Arial' color='white' size='3'>Click here</font></a> for previous feeds.
+</font></i><br><br><br>
+
+	<font face='Arial' color='orange' size='4'>Tired of the Toddler Levels music? There is now an adult version available, switch it in the Settings link on the top right!<br>
+	<table><tr><td><font face='Courier' color='00FF00' size='3'><i>5 months ago</i>&nbsp; &nbsp;
+	<form action="level.php" method="POST">
+	<td align="left" colspan="2"><input type="image" src="http://www.timtang.com/smilies/cheer.gif" width="24" height="21" name="cheer73"></font>
+	<input type="hidden" name="action" value="cheer73"><font face='Arial' color='FFE420' size='3'>104	</form></td><td> &nbsp;
+	<form action="level.php" method="POST">
+	<td align="left" colspan="2"><input type="image" src="http://www.timtang.com/smilies/tomato.gif" width="25" height="20" name="tomato73"></font>
+	<input type="hidden" name="action" value="tomato73"><font face='Arial' color='FF8F6B' size='3'>48	</form>
+	</td></tr></table>
+	<br><br><center>
+
+<form action="level.php" method="POST">
+<p><input type="submit" value="Logout">
+<input type="hidden" name="action" value="logout"></p>
+</form>
+
+<br><br>
+
+<embed src="music/deadend/sandrapalmer.mp3" autostart="true"  loop="true"></embed> 
+
+<br><br>
+
+<!-- BEGIN CBOX -->
+<div align="center" id="cboxdiv">
+<iframe frameborder="0" width="600" height="325" src="http://www.cbox.ws/box/?boxid=1008890&amp;boxtag=8832&amp;sec=main" marginheight="2" marginwidth="2" scrolling="auto" allowtransparency="yes" name="cboxmain" style="border:#DBE2ED 1px solid;" id="cboxmain"></iframe><br/>
+<iframe frameborder="0" width="600" height="75" src="http://www.cbox.ws/box/?boxid=1008890&amp;boxtag=8832&amp;sec=form" marginheight="2" marginwidth="2" scrolling="no" allowtransparency="yes" name="cboxform" style="border:#DBE2ED 1px solid;border-top:0px" id="cboxform"></iframe>
+</div>
+<!-- END CBOX -->
+
+
+</center>
+
+</font>
+</body>
+
+</png>
